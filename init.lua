@@ -21,6 +21,9 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+-- Keymapping
+vim.keymap.set("t", "<ESC>", "<C-\\><C-n>", { noremap = true, silent = true }) -- terminal escape
+
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
