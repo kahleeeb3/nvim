@@ -1,69 +1,50 @@
-# nvim
+# Neovim Setup
 
-# Install
+## Install [Neovim](https://github.com/neovim/neovim)
+Pre-requisites
 ```bash
+sudo apt update
 sudo apt install build-essential
 sudo apt install cmake
 ```
+Install neovim
 ```bash
-git https://github.com/neovim/neovim.git
+cd ~/Desktop
+git clone https://github.com/neovim/neovim.git && cd neovim
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
 ```
-# Commands
-- Open
-`nvmi`
 
-- New File
-`:e <filename>`
-
-- Save
-`:w`
-
-- Delete Line
-`dd` in normal mode
-`dgg` delete up to top 
-
-# Quit
+## Place Configuration
 ```bash
-:q! # no changes
+git clone https://github.com/kahleeeb3/nvim.git ~/.config/nvim
 ```
 
-# Split Terminal
-```bash
-:sp
-:vsp # vertical split
-```
+## Sources
+- [Package Manager](https://github.com/folke/lazy.nvim)
+- [Will's Nvim](https://github.com/WillLillis/nvim)
 
-# Scrolling
-`Ctrl+D` or `Ctrl+U`
 
-## Switching
-`Ctrl+W` / `Ctrl+W`
-
-# File Explorer
-`:Ex`
-
-# Leader
-common is spacebar
+## Commands
+Open: `nvmi`
+New File: `:e <filename>`
+Save: `:w`
+Delete Line: `dd` in normal mode
+Delete up to top: `dgg`
+Quit: `q!` no changes
+Split Terminal; `:sp` or `:vsp` for vertical
+Scrolling: `Ctrl+D` or `Ctrl+U`
+Switching Windows: `Ctrl+W`
+File Explorer `:Ex`
 
 
 # Things to fix
 <!-- Package manager -->
 <!-- Terminal -->
+Leader
 File Explorer
 LSP Server
 Syntax Highlight
 Themes
 Searching (Fuzzy Finder)
 capslock to esc
-
-# Neovim Config
-```bash
-cd ~/.config
-git clone https://github.com/kahleeeb3/nvim.git
-```
-
-# Sources
-[Package Manager](https://github.com/folke/lazy.nvim)
-[Will's Nvim](https://github.com/WillLillis/nvim)
