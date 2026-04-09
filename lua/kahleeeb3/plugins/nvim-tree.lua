@@ -9,7 +9,7 @@ return {
         })
 
         -- Keymap
-        vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
+	vim.keymap.set("n", "<C-e>", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
 
         -- open nvim-tree when nvim starts with no file
         vim.api.nvim_create_autocmd("VimEnter", {

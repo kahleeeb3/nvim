@@ -27,6 +27,8 @@ git clone https://github.com/kahleeeb3/nvim.git ~/.config/nvim
 - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 - [nerdfonts - JetBrainsMono](https://www.nerdfonts.com/font-downloads)
 - [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
+- [lazygit](https://github.com/jesseduffield/lazygit)
+- [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 
 ## Commands
 - Open: `nvmi`
