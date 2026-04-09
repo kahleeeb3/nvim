@@ -21,9 +21,12 @@ git clone https://github.com/kahleeeb3/nvim.git ~/.config/nvim
 ```
 
 ## Sources
-- [Package Manager](https://github.com/folke/lazy.nvim)
-- [Will's Nvim](https://github.com/WillLillis/nvim)
-
+- [lazy.lua](https://github.com/folke/lazy.nvim)
+- [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
+- [nerdfonts - JetBrainsMono](https://www.nerdfonts.com/font-downloads)
+- [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
 
 ## Commands
 - Open: `nvmi`
