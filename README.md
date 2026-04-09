@@ -26,25 +26,25 @@ git clone https://github.com/kahleeeb3/nvim.git ~/.config/nvim
 
 
 ## Commands
-Open: `nvmi`
-New File: `:e <filename>`
-Save: `:w`
-Delete Line: `dd` in normal mode
-Delete up to top: `dgg`
-Quit: `q!` no changes
-Split Terminal; `:sp` or `:vsp` for vertical
-Scrolling: `Ctrl+D` or `Ctrl+U`
-Switching Windows: `Ctrl+W`
-File Explorer `:Ex`
+- Open: `nvmi`
+- New File: `:e <filename>`
+- Save: `:w`
+- Delete Line: `dd` in normal mode
+- Delete up to top: `dgg`
+- Quit: `q!` no changes
+- Split Terminal; `:sp` or `:vsp` for vertical
+- Scrolling: `Ctrl+D` or `Ctrl+U`
+- Switching Windows: `Ctrl+W`
+- File Explorer `:Ex`
 
 
 # Things to fix
-<!-- Package manager -->
-<!-- Terminal -->
-Leader
-File Explorer
-LSP Server
-Syntax Highlight
-Themes
-Searching (Fuzzy Finder)
-capslock to esc
+<!-- - Package manager -->
+<!-- - Terminal -->
+- Leader
+- File Explorer
+- LSP Server
+- Syntax Highlight
+- Themes
+- Searching (Fuzzy Finder)
+- capslock to esc
