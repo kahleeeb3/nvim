@@ -1,1 +1,1 @@
-vim.keymap.set("t", "<ESC><ESC>", "<C-\\><C-n>", { noremap = true, silent = true }) -- terminal espace 
+vim.keymap.set("t", "<C-n>", "<C-\\><C-n>", { noremap = true, silent = true }) -- terminal escape
